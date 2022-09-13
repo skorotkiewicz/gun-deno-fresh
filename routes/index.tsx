@@ -1,4 +1,5 @@
 import Counter from "../islands/Counter.tsx";
+import GunPaste from "../islands/GunPaste.tsx";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         file, and refresh.
       </p>
       <Counter start={3} />
+      <GunPaste />
     </div>
   );
 }
