@@ -9,7 +9,7 @@ export default function Counter() {
   const copy = useRef(gun.get("test").get("paste"));
 
   useEffect(() => {
-    copy.current.on((data: any) => {
+    copy.current.on((data: string) => {
       setPaste(data);
     });
   }, []);
