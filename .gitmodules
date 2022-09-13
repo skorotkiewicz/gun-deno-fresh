@@ -1,0 +1,3 @@
+[submodule "gun-server"]
+	path = gun-server
+	url = https://github.com/LicomJS/Licom-gun-server
